@@ -4,6 +4,10 @@ import About from "@/components/About";
 import Specialties from "@/components/Specialities";
 import SuppotSection from "@/components/SupportSection";
 import IntroSection from "@/components/IntroSection";
+import FAQSection from "@/components/FAQSection";
+import ProfessionalBackground from "@/components/ProfessionalBackground";
+import GetStartedSection from "@/components/GetStartedSection"
+import FooterSection from "@/components/FooterSection"
 
 export default function Home() {
   return (
@@ -14,6 +18,10 @@ export default function Home() {
       <Specialties/>
       <SuppotSection/>
       <IntroSection/>
+      <FAQSection/>
+      <ProfessionalBackground/>
+      <GetStartedSection/>
+      <FooterSection/>
     </main>
   );
 }

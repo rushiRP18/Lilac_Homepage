@@ -32,7 +32,7 @@ const IntroSection = () => {
             {/* GIRL IMAGE (arched, clipped) */}
             <div className="relative w-[420px] h-[600px] overflow-hidden rounded-t-full">
               <Image
-                src="/girl.jpg"
+                src="/girl_new.jpg"
                 alt="Girl holding flowers"
                 fill
                 priority
@@ -43,7 +43,7 @@ const IntroSection = () => {
             {/* FLOWR IMAGE (overlapping, NOT clipped) */}
             <div className="absolute -bottom-14 -right-20 w-[260px] h-[260px] rounded-full overflow-hidden z-10">
               <Image
-                src="/flowrs.jpg"
+                src="/flowers_new.jpg"
                 alt="Flower close up"
                 fill
                 className="object-cover"

@@ -13,9 +13,8 @@ const config: Config = {
         "dark-green": "#1E2B22",
       },
       fontFamily: {
-        serif: ["var(--font-serif)", "serif"],
-        sans: ["var(--font-sans)", "sans-serif"],
-      },
+      gopher: ['Gopher', 'sans-serif'],
+    },
     },
   },
   plugins: [],

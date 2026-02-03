@@ -6,7 +6,7 @@ export default function Hero() {
         <div className="relative w-full h-[500px] md:h-[700px]">
           <div className="absolute inset-0 bg-[#263419]/5 rounded-t-[1000px] overflow-hidden">
             <img
-              src="https://images.unsplash.com/photo-1490750967868-88aa4486c946?q=80&w=2070&auto=format&fit=crop"
+              src="/home_page.jpg"
               alt="Woman holding lilac flowers"
               className="w-full h-full object-cover object-center hover:scale-105 transition-transform duration-700"
             />

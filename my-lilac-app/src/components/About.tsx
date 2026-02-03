@@ -5,8 +5,8 @@ export default function About() {
     <section className="grid grid-cols-1 md:grid-cols-2 w-full min-h-[520px]">
       
       {/* LEFT SIDE */}
-      <div className="bg-[#e9e5dd] text-[#263419] px-16">
-
+      <div className="bg-[#e9e5dd] text-[#263419] px-16 font-gopher">
+        
         {/* Content wrapper for vertical centering */}
         <div className="flex flex-col pt-28 pb-20">
           

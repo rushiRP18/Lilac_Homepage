@@ -15,7 +15,7 @@ const SupportSection = () => {
       {/* LEFT IMAGE */}
       <div className="relative w-full md:w-1/2 min-h-[650px]">
         <Image
-          src="/ss.jpg"
+          src="/ss_new.jpg"
           alt="Supportive background"
           fill
           priority
