@@ -1,9 +1,9 @@
 export default function Hero() {
   return (
-    <section className="max-w-7xl mx-auto px-6 md:px-12 pb-24 w-full">
-      <div className="grid grid-cols-1 md:grid-cols-2 gap-20 xl:gap-32 items-center min-h-[80vh]">
+    <section className="max-w-7xl mx-auto px-4 sm:px-6 md:px-12 pb-16 sm:pb-20 md:pb-24 w-full font-gopher">
+      <div className="grid grid-cols-1 md:grid-cols-2 gap-8 sm:gap-12 md:gap-20 xl:gap-32 items-center min-h-[60vh] sm:min-h-[70vh] md:min-h-[80vh]">
         {/* Left: Arch Image */}
-        <div className="relative w-full h-[500px] md:h-[700px]">
+        <div className="relative w-full h-[300px] sm:h-[400px] md:h-[500px] lg:h-[700px] order-2 md:order-1">
           <div className="absolute inset-0 bg-[#263419]/5 rounded-t-[1000px] overflow-hidden">
             <img
               src="/home_page.jpg"
@@ -14,15 +14,15 @@ export default function Hero() {
         </div>
 
         {/* Right: Text */}
-        <div className="flex flex-col items-center text-center space-y-8 max-w-lg mx-auto">
-          <h1 className="font-sans text-5xl md:text-7xl leading-[1.1] text-[#263419] font-medium">
+        <div className="flex flex-col items-center text-center space-y-6 sm:space-y-8 max-w-lg mx-auto order-1 md:order-2">
+          <h1 className="font-gopher text-3xl sm:text-4xl md:text-5xl lg:text-6xl xl:text-7xl leading-[1.1] text-[#263419] font-medium">
             Live your life <br /> in full bloom
           </h1>
-          <p className="text-[#263419]/90 text-sm md:text-base font-medium tracking-wide">
+          <p className="text-[#263419]/90 text-xs sm:text-sm md:text-base font-medium tracking-wide px-2 sm:px-0">
             Therapy for Adults in Minneapolis, MN.
           </p>
-          <div className="pt-4">
-            <button className="border border-[#263419] px-8 py-3 text-xs md:text-sm tracking-[0.2em] font-bold uppercase hover:bg-[#263419] hover:text-white transition-colors duration-300 flex items-center gap-2">
+          <div className="pt-2 sm:pt-4">
+            <button className="border border-[#263419] px-6 sm:px-8 py-2 sm:py-3 text-xs sm:text-xs md:text-sm tracking-[0.2em] font-bold uppercase hover:bg-[#263419] hover:text-white transition-colors duration-300 flex items-center gap-2">
               Connect with me
               <svg
                 width="12"

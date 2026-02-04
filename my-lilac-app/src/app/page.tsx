@@ -11,7 +11,7 @@ import FooterSection from "@/components/FooterSection"
 
 export default function Home() {
   return (
-    <main className="min-h-screen bg-cream text-[#263419] font-sans selection:bg-[#263419] selection:text-cream">
+    <main className="min-h-screen bg-cream text-[#263419] font-gopher selection:bg-[#263419] selection:text-cream">
       <Header />
       <Hero />
       <About />

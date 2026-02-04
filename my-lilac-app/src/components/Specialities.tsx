@@ -20,32 +20,32 @@ const specialties = [
 
 const Specialties = () => {
   return (
-    <section className="bg-[#FAF7F2] py-12 px-4 md:px-8 font-sans min-h-screen flex flex-col justify-center">
+    <section className="bg-[#FAF7F2] py-12 sm:py-16 md:py-20 px-4 sm:px-6 md:px-8 font-gopher min-h-screen flex flex-col justify-center">
       <div className="max-w-[1440px] mx-auto w-full">
         
         {/* Reduced bottom margin to bring cards closer to heading */}
-        <h2 className="text-[#1A3C1A] text-4xl md:text-5xl text-center mb-10 font-medium tracking-tight">
+        <h2 className="text-[#1A3C1A] text-2xl sm:text-3xl md:text-4xl lg:text-5xl text-center mb-8 sm:mb-10 font-medium tracking-tight">
           My Specialties
         </h2>
 
         {/* Grid Container */}
-        <div className="grid grid-cols-1 md:grid-cols-3 gap-4">
+        <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-3 sm:gap-4">
           {specialties.map((item, index) => (
             <div 
               key={index} 
-              className="border border-[#A8A8A8] bg-[#e5e0da] p-8 flex flex-col items-start"
+              className="border border-[#A8A8A8] bg-[#e5e0da] p-4 sm:p-6 md:p-8 flex flex-col items-start"
             >
-              <h3 className="text-[#1A3C1A] text-lg font-semibold mb-4">
+              <h3 className="text-[#1A3C1A] text-base sm:text-lg md:text-lg font-semibold mb-3 sm:mb-4">
                 {item.title}
               </h3>
               
               {/* Tightened description text */}
-              <p className="text-[#2D2D2D] text-[12px] leading-snug mb-8 max-w-[95%]">
+              <p className="text-[#2D2D2D] text-[11px] sm:text-[12px] md:text-[12px] leading-snug mb-6 sm:mb-8 max-w-[95%]">
                 {item.description}
               </p>
 
               {/* Adjusted Image Size for Screen Fit */}
-              <div className="mx-auto w-56 h-56 lg:w-64 lg:h-64 overflow-hidden rounded-full border border-gray-300 shadow-sm">
+              <div className="mx-auto w-40 h-40 sm:w-48 sm:h-48 md:w-56 md:h-56 lg:w-64 lg:h-64 overflow-hidden rounded-full border border-gray-300 shadow-sm">
                 <img 
                   src={item.image} 
                   alt={item.title}
